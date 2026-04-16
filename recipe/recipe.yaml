@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.2"
 
 package:
   name: jupyverse-yrooms
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/j/jupyverse-yrooms/jupyverse_yrooms-${{ version }}.tar.gz
-    sha256: 10f4efc2970b94e8705f105331c0b8ce1ea7134bd28da9874e8e30a69643141f
+    sha256: 6be0402cbb34e7b285290519fab1639da635a87035de7f3c6f4b0a4d35039206
 
 build:
   noarch: python
@@ -28,7 +28,6 @@ requirements:
     - anyioutils
     - httpx
     - httpx-ws
-    - jupyverse-api >=0.15.0,<0.16.0
     - pycrdt
 
 tests:
