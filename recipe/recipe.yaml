@@ -28,6 +28,7 @@ requirements:
     - anyioutils
     - httpx2 >=2.9.1,<3.0.0
     - pycrdt
+    - wsproto
 
 tests:
   - python:
